@@ -1,0 +1,41 @@
+img {
+  max-width: 100%;
+  flex: 1;
+  height: 12em;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.01);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+  table.center {
+    margin: 0 auto; 
+  }
+
+  th, td {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+  }
+  
+  .imgGalery {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    display: none;
+  }
+
+    .vidGalery {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    display: none;
+  }
